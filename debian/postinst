@@ -68,7 +68,8 @@ case "$1" in
 				NGINXT=$(sudo nginx -t >/dev/null ; echo $?)
 				if [ $NGINXT -eq 0 ]; then
                                         mkdir ${EXPHOSTPATH}
-					systemctl reload nginx
+                                        invoke-rc.d nginx reload
+                                        #systemctl reload nginx
                                         #systemctl status nginx
 				else
 					echo "Error - nginx: configuration files test failed!"
