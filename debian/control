@@ -1,0 +1,15 @@
+Source: expanse
+Section: unknown
+Priority: optional
+Maintainer: Dokukin Vyacheslav Olegovich <toorrp4@gmail.com>
+Build-Depends: debhelper-compat (= 12)
+Standards-Version: 4.4.1
+Homepage: https://itscript.ru
+#Vcs-Browser: https://salsa.debian.org/debian/expanse
+#Vcs-Git: https://salsa.debian.org/debian/expanse.git
+
+Package: expanse
+Architecture: all
+Depends: nginx
+Description: <insert up to 60 chars description>
+ <insert long description, indented with spaces>

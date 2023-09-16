@@ -1,0 +1,11 @@
+expanse (0.2) unstable; urgency=medium
+
+  * Add postinst & postrm scripts
+
+-- Dokukin Vyacheslav Olegovich <toorrp4@gmail.com> Thu, 07 Sep 2023 22:17:20 +0300
+
+expanse (0.1-1) unstable; urgency=medium
+
+  * Initial release
+
+ -- Dokukin Vyacheslav Olegovich <toorrp4@gmail.com>  Sun, 03 Sep 2023 10:00:24 +0000
